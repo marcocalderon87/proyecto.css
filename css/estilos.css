@@ -61,7 +61,14 @@ body {
 
 .foto_principal {
 	width: 80%;
-	box-shadow: 2px 2px 2px 2px #02010a;
+	margin: 10px;
+	box-shadow: 2px 20px 30px #02010a9e;
+	transition: 1s ease-in-out;
+}
+
+.foto_principal:hover {
+	box-shadow: 1px 5px 20px rgb(109, 156, 0);
+	transition: 1s ease-in-out;
 }
 
 #contenedor_secund {
@@ -79,7 +86,7 @@ body {
 .fotos_secund, .fotos_terc {
 	margin: auto;
 	width: 40%;
-	box-shadow: 2px 2px 2px 2px #02010a;
+	box-shadow: 2px 20px 30px #02010a9e;
 }
 
 #cont_fot_enlac1, #cont_fot_enlac2 {
@@ -89,8 +96,9 @@ body {
 	box-sizing: border-box;
 }
 
-.enlace_paisajes a, .enlace_retratos a {
+.enlace {
 	color: white;
+	margin: 10px 0px;
 }
 
 #volver {
@@ -151,13 +159,16 @@ body {
 		width: 100%;
 	}
 	#cont_fot_enlac1, #cont_fot_enlac2 {
-		width: 80%; margin: 0 auto;
+		width: 80%;
+		margin: 0 auto;
 	}
 	.fotos_secund { 
-		width: 80%; margin: 0 auto;
+		width: 100%;
+		margin: 20px 0 0;
 	}
 	.fotos_terc { 
-		width: 80%; margin: 0 auto;
+		width: 100%; 
+		margin: 20px 0 0;
 	}
 	.contacto {
 		width: 100%;

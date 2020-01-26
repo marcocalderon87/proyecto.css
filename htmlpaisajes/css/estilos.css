@@ -1,0 +1,57 @@
+#top{
+	display: flex;
+	flex-direction: column;
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+}
+#cabecera{
+	text-align: left;
+	color: white;
+	text-shadow: 0 0 2px #02010a;
+}
+a{
+	color: white;
+	text-align: right;
+}
+#menu_principal{
+	text-align: right;
+	color: white!important;
+}
+.paisajes{
+	text-decoration: none;
+}
+#contenedor_fotos1{
+	display: flex;
+	flex-direction: row;
+	background-color: #82c3a6;
+	width: 100%
+}
+.fotos1{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	width: 25%;
+}
+#contenedor_fotos2{
+	display: flex;
+	flex-direction: row;
+	background-color: #d5c75f;
+	width: 100%
+	border: 1px
+}
+.fotos2{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	width: 25%;
+}
+#pie_pag{
+	display: flex;
+	flex-direction: row;
+	background-color: #c6d5c5;
+	border-radius: 0px 0px 10px 10px;
+	width: 100%;
+}
